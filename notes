@@ -26,6 +26,8 @@ LoraWAN: ?
 
 3. Omnet++ installation
 
+********************
+version I
 installation manual
 https://omnet-manual.com/install-omnet-ubuntu-20-04/
 * ubuntu 20.04
@@ -76,5 +78,9 @@ Pin: version 2.2.3+dfsg-2
 Pin-Priority: 1337
 EOF
 ###
+********************
 
-
+********************
+II 
+installation manual
+https://medium.com/@computerscienceengineering/omnet-6-0-installation-steps-4a724fbbb09d

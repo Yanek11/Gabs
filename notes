@@ -22,6 +22,8 @@ LoraWAN: ?
 4. LoraWan: installation
 5. fork Flora - https://github.com/Yanek11/flora - done
 
+
+
 3. Omnet++ installation
 
 installation manual
@@ -29,14 +31,15 @@ https://omnet-manual.com/install-omnet-ubuntu-20-04/
 * ubuntu 20.04
 
 sudo apt-get update
-sudo apt-get install build-essential gcc g++ bison flex perl tcl-dev tk-dev libxml2-dev zlib1g-dev default-jre doxygen graphviz libwebkitgtk-1.0-0
+OK
 
+sudo apt-get install build-essential gcc g++ bison flex perl tcl-dev tk-dev libxml2-dev zlib1g-dev default-jre doxygen graphviz libwebkitgtk-1.0-0
 @ error @
 E: Package 'libwebkitgtk-1.0-0' has no installation candidate
 solution?
 https://community.hitachivantara.com/discussion/libwebkitgtk-10-0-on-ubuntu-2204-lts
 
-@ error
+@@ error
 repo cannot be verified @
 solution?
 rm -i /etc/apt/sources.list.d/docker

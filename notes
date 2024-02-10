@@ -51,4 +51,30 @@ adding to /etc/apt/sources.list
 result: OK
 
 ### sudo apt-get install qt4-qmake libqt4-dev libqt4-opengl-dev openscenegraph libopenscenegraph-dev openscenegraph-plugin-osgearth osgearth osgearth-data libosgearth-dev
+@@ error 
+GDAL not installable
+
+solution
+https://super-unix.com/ubuntu/ubuntu-ubuntu-20-04-importerror-no-module-named-gdal/
+
+wget all 
+
+### sudo apt install ./*libgdal*.deb
+
+###
+cat <<EOF | sudo tee /etc/apt/preferences.d/pin-gdal
+Package: gdal-data
+Pin: version 2.2.3+dfsg-2
+Pin-Priority: 1337
+
+Package: libgdal20
+Pin: version 2.2.3+dfsg-2
+Pin-Priority: 1337
+
+Package: python-gdal
+Pin: version 2.2.3+dfsg-2
+Pin-Priority: 1337
+EOF
+###
+
 

@@ -6,12 +6,12 @@ This is a very good documentation of OmNET++ https://doc.omnetpp.org/omnetpp5/ma
 This is where i got instructions to download FLora https://flora.aalto.fi/   --- or here https://omnetpp.org/download/models-and-tools
 
 GOAL
-Vanilla Omnet++ up and running on Ubuntu 22.04
+Vanilla LoraWAN running on Omnet++  (Ubuntu 22.04 VM)
 
 ### Tasks ### 
 
 1. Oracle VirtualBox installed - done
-2. VM Ubuntu 22.04 - 4GB RAM - 
+2. VM Ubuntu 22.04 - 4GB RAM - done
 3. Omnet++ installed -
 4. LoraWan: installation and 
 5. fork Flora - https://github.com/Yanek11/flora - done

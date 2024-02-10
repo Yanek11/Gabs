@@ -18,8 +18,8 @@ LoraWAN: ?
 
 1. Oracle VirtualBox installed - done
 2. VM Ubuntu  - 4GB RAM - done
-3. Omnet++  6.0.2 installed 
-4. LoraWan: installation
+3. Omnet++  6.0.2 installed - done
+4. LoraWan: installation - in progress
 5. fork Flora - https://github.com/Yanek11/flora - done
 
 
